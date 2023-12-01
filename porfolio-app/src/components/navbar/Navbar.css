@@ -8,7 +8,7 @@
     align-items: center;
     display: flex;
     gap: 2rem;
-}
+}   
 .n-name{
     font-size: 1.4rem;
     font-weight: bold;
@@ -27,6 +27,7 @@
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 .n-list>ul>li:hover{
     cursor: pointer;
@@ -34,4 +35,13 @@
 }
 .n-button{
     flex: 2;
+}
+
+@media screen and (max-width:480px){
+    .n-list{
+        display: noon;
+    }
+    .n-button{
+        display: none;
+    }
 }
